@@ -12,7 +12,8 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1400px;
     box-sizing: border-box;
 }
 
@@ -97,6 +98,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
+}
+
+.nav__logo {
+    margin: 0;
 }
 
 .nav__logo .logo {
